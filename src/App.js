@@ -14,14 +14,14 @@ import Host from "./component/host";
 
 function App() {
   const data = {
-    listing_name: "Іст-Сайд Біл",
+    listing_name: "East Side Beehive",
     reviews_summary: {
       average_rating: 4.9,
       total_reviews: 190,
     },
     location: {
-      city: "Остін, Техас",
-      country: "Сполучені Штати",
+      city: "Austin, Texas",
+      country: "United States",
     },
     superhost: true,
 
@@ -64,7 +64,7 @@ function App() {
     ],
 
     description:
-      "Насолоджуйтеся цим чистим, сучасним котеджем, розташованим у затишному, але зручному районі Центрально-Східного Остіна. Натхненний японськими чайними будинками, цей котедж на задньому дворі забезпечує легкий доступ до місць проведення SXSW, фестивалю ACL, центру міста, чудових ресторанів та громадського транспорту, а також пропонує спокійний відпочинок для відпочинку та зарядки.",
+      "Enjoy this clean, contemporary cottage located in a cozy yet convenient area of Central-East Austin. Inspired by Japanese tea houses, this backyard cottage provides easy access to SXSW venues, ACL Festival, downtown, excellent restaurants, and public transportation. It also offers a peaceful retreat for relaxation and recharging.",
 
     property_details: {
       guests: 2,
@@ -73,7 +73,8 @@ function App() {
       baths: 1,
     },
 
-    neighborhood_info: "Район чарівний, веселий, безпечний і милий...",
+    neighborhood_info:
+      "The neighborhood is charming, lively, safe, and cute...",
 
     amenities: {
       hasPool: true,
